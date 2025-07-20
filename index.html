@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindCare — Your Mental Wellness Companion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <img src="C:\Users\User\Pictures\1739469855343.jpg" alt="MindCare Logo" class="logo">
+    <nav>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="cta-btn">🌞 / 🌚</button>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Mind, Cared For</h1>
+      <p class="tagline">Track your mood, tasks, and growth. MindCare empowers your mental wellness journey.</p>
+      <button class="cta-btn large">Try MindCare Free</button>
+    </div>
+    <img src="assets/images/hero-illustration.svg" alt="Wellness illustration" class="hero-img">
+  </section>
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <img src="assets/icons/tasks.svg" alt="Tasks icon">
+        <h3>Smart Task Scheduler</h3>
+        <p>Organize your days with reminders, recurring tasks, and calendar integration.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/mood.svg" alt="Mood icon">
+        <h3>Mood & Notes Tracker</h3>
+        <p>Log your feelings, journal entries, and emotional patterns effortlessly.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/insights.svg" alt="Insights icon">
+        <h3>Insights & Statistics</h3>
+        <p>Visualize your progress with charts and personalized insights.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/theme.svg" alt="Theme icon">
+        <h3>Theme Switching</h3>
+        <p>Switch between light and dark modes for comfort and style.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/notification.svg" alt="Notification icon">
+        <h3>Reminders & Notifications</h3>
+        <p>Never miss a task or important moment with browser notifications.</p>
+      </div>
+    </div>
+<div id="congrats-message" style="display:none; color:#38a169; font-weight:bold; margin-top:1em;">
+  Congratulations! You have completed your task 🎉
+</div>
+  </section>
+  <section id="about" class="about">
+    <h2>About MindCare</h2>
+    <p>MindCare is designed for individuals and organizations that value mental wellness. Our mission is to empower everyone to care for their mind—at home, at work, and everywhere in between.</p>
+  </section>
+  <section class="stats">
+  <h2>MindCare in Numbers</h2>
+  <div class="stats-grid">
+    <div class="stat">
+      <span class="stat-number" data-count="1200">0</span>
+      <span>Users</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-count="320">0</span>
+      <span>Daily Check-ins</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-count="45">0</span>
+      <span>Countries</span>
+    </div>
+  </div>
+</section>
+  <section class="testimonials">
+  <h2>What Our Users Say</h2>
+  <div class="testimonial-cards">
+    <div class="testimonial-card">
+      <p>"MindCare helped me manage my stress and stay organized."</p>
+      <span class="author">— Jane, Student</span>
+    </div>
+    <div class="testimonial-card">
+      <p>"I love the mood tracker and reminders. Highly recommended!"</p>
+      <span class="author">— Alex, Entrepreneur</span>
+    </div>
+  </div>
+</section>
+  <section id="newsletter" class="newsletter">
+  <h2>Subscribe to our Wellness Newsletter</h2>
+  <form class="newsletter-form" id="newsletter-form">
+    <input type="email" placeholder="Your Email" id="newsletter-email" required>
+    <button type="submit" class="cta-btn">Subscribe</button>
+    <div id="newsletter-status"></div>
+  </form>
+</section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contact-form">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit" class="cta-btn">Send Message</button>
+      <div id="form-status"></div>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>© 2025 MindCare. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

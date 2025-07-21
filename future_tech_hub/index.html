@@ -1,3 +1,109 @@
-<html>
-    <H1>hello</H1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Tech Hub — Innovate. Inspire. Impact.</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <img src="C:\Users\User\Pictures\1739469855343.jpg" alt="Future Tech Hub Logo" class="logo">
+    <nav>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="cta-btn">🌞 / 🌚</button>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to the Future of Technology</h1>
+      <p class="tagline">Innovation, collaboration, and breakthrough ideas. Build your tech future with us.</p>
+      <button class="cta-btn large">Join Future Tech Hub</button>
+    </div>
+    <img src="assets/images/hero-illustration.svg" alt="Tech innovation illustration" class="hero-img">
+  </section>
+  <section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <img src="assets/icons/community.svg" alt="Community icon">
+        <h3>Global Community</h3>
+        <p>Connect with innovators, developers, and tech leaders worldwide.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/events.svg" alt="Events icon">
+        <h3>Events & Hackathons</h3>
+        <p>Participate in workshops, hackathons, and conferences that shape tomorrow.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/learning.svg" alt="Learning icon">
+        <h3>Learning Hub</h3>
+        <p>Access curated courses, tutorials, and resources for career growth.</p>
+      </div>
+      <div class="card">
+        <img src="assets/icons/projects.svg" alt="Projects icon">
+        <h3>Startup & Project Support</h3>
+        <p>Pitch ideas, get mentorship, and collaborate on cutting-edge projects.</p>
+      </div>
+    </div>
+  </section>
+  <section class="stats">
+  <h2>In Numbers</h2>
+  <div class="stats-grid">
+    <div class="stat">
+      <span class="stat-number" data-count="1500">0</span>
+      <span>Members</span>
+    </div>
+<button class="cta-btn" id="open-join-modal">Become a Member</button>
+<div id="join-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="close-join-modal">&times;</span>
+    <h2>Join Future Tech Hub</h2>
+    <form id="join-form" class="join-form">
+      <input type="text" id="join-name" placeholder="Your Name" required>
+      <input type="email" id="join-email" placeholder="Your Email" required>
+      <button type="submit" class="cta-btn">Join Now</button>
+      <div id="join-status"></div>
+    </form>
+  </div>
+</div>
+    <div class="stat">
+      <span class="stat-number" data-count="57">0</span>
+      <span>Events</span>
+    </div>
+    <div class="stat">
+      <span class="stat-number" data-count="25">0</span>
+      <span>Startups Supported</span>
+    </div>
+  </div>
+</section>
+  <section id="about" class="about">
+    <h2>About Future Tech Hub</h2>
+    <p>We are a technology innovation hub dedicated to building a brighter future. Our platform empowers individuals and organizations to connect, learn, and create impactful solutions.</p>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contact-form">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit" class="cta-btn">Send Message</button>
+      <div id="form-status"></div>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>© 2025 Future Tech Hub. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
